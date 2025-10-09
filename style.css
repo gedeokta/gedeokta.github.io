@@ -1,3 +1,4 @@
+
 /* Reset dasar */
 * {
   margin: 0;
@@ -6,7 +7,7 @@
 }
 
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'poppins', sans-serif;
   background: linear-gradient(to bottom right, #000, #ff914d);
   color: white;
   height: 100vh;
@@ -53,7 +54,7 @@ body {
 }
 
 .hero h1 span {
-  text-decoration: underline;
+  text-decoration: justify;
 }
 
 .hero p {
@@ -80,4 +81,9 @@ body {
   border-radius: 20px;
   cursor: pointer;
   font-weight: bold;
+}
+
+
+.poto-kegiatan img{
+  width: 200px;
 }
