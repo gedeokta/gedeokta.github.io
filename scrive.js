@@ -14,4 +14,3 @@ document.querySelector('.chat-widget').innerHTML = `
   <p>Halo! Ada yang bisa saya bantu?</p>
   <input type="text" placeholder="Ketik pesan..." />
   <button>Kirim</button>
-`;
