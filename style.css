@@ -21,6 +21,15 @@ body {
   align-items: center;
   background-color: rgba(0, 0, 0, 0.9);
 }
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Jarak antara logo dan teks */
+}
+
+.logo img {
+  border-radius: 50%; /* Jika ingin logo jadi lingkaran */
+}
 
 .logo {
   font-size: 1.8rem;
