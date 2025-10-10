@@ -1,4 +1,3 @@
-
 /* Reset dasar */
 * {
   margin: 0;
@@ -17,23 +16,29 @@ body {
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 20px 40px;
+  padding: 20px 50px;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.9);
 }
+
 .logo {
-  display: flex;
-  align-items: center;
-  gap: 10px; /* Jarak antara logo dan teks */
+  display: flex;              /* Menyusun logo dan teks secara horizontal */
+  align-items: center;        /* Menyelaraskan vertikal antara gambar dan teks */
+  gap: 10px;                  /* Jarak antara logo dan teks */
+  font-size: 1.6rem;          /* Ukuran tulisan disesuaikan agar proporsional */
+  font-weight: bold;
 }
 
 .logo img {
-  border-radius: 50%; /* Jika ingin logo jadi lingkaran */
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;         /* Membuat gambar bulat */
+  object-fit: cover;          /* Menjaga rasio dan memotong jika perlu */
 }
 
-.logo {
-  font-size: 1.8rem;
-  font-weight: bold;
+.logo h1 {
+  margin: 0;                  /* Hilangkan jarak bawaan h1 */
+  font-size: 1.6rem;          /* Ukuran teks OKTA disesuaikan */
 }
 
 .nav-links a {
@@ -57,13 +62,15 @@ body {
   max-width: 600px;
 }
 
-.hero h1 {
-  font-size: 3rem;
-  line-height: 1.2;
+.header {
+  display: flex;
+  align-items: center; /* Menyelaraskan logo dan teks secara vertikal */
+  justify-content: center; /* Opsional: untuk menaruh di tengah halaman */
+  gap: 10px; /* Jarak antara logo dan teks */
 }
 
-.hero h1 span {
-  text-decoration: justify;
+.logo span {
+  text-decoration: none;
 }
 
 .hero p {
@@ -92,7 +99,6 @@ body {
   font-weight: bold;
 }
 
-
-.poto-kegiatan img{
+.poto-kegiatan img {
   width: 200px;
 }
