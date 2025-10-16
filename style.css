@@ -25,7 +25,7 @@ body {
   display: flex;              /* Menyusun logo dan teks secara horizontal */
   align-items: center;        /* Menyelaraskan vertikal antara gambar dan teks */
   gap: 10px;                  /* Jarak antara logo dan teks */
-  font-size: 1.3rem;          /* Ukuran tulisan disesuaikan agar proporsional */
+  font-size: 1.6rem;          /* Ukuran tulisan disesuaikan agar proporsional */
   font-weight: bold;
 }
 
@@ -102,5 +102,3 @@ body {
 .poto-kegiatan img {
   width: 200px;
 }
-
-
