@@ -61,6 +61,15 @@ body {
   padding: 100px 40px;
   max-width: 600px;
 }
+.nav-links img {
+  vertical-align: middle;
+  border-radius: 50%; /* kalau mau bentuk bulat */
+  transition: transform 0.2s;
+}
+
+.nav-links img:hover {
+  transform: scale(1.1);
+}
 
 .header {
   display: flex;
@@ -101,4 +110,34 @@ body {
 
 .poto-kegiatan img {
   width: 200px;
+}
+.nav-links {
+  display: flex;
+  gap: 16px; /* spasi antar item */
+  align-items: flex-start;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-links figure {
+  margin: 0;                 /* hapus margin default figure */
+  display: flex;
+  flex-direction: column;    /* susun gambar di atas caption */
+  align-items: center;       /* posisikan tengah */
+  gap: 6px;                  /* jarak antara image dan caption */
+}
+
+.nav-links img {
+  display: block;            /* hilangkan whitespace bawah */
+}
+
+.nav-links figcaption {
+  font-size: 12px;
+  line-height: 1;
+  margin-top: 0;
+  text-align: center;
+  color: #fff;               /* ganti sesuai warna latar Anda */
 }
